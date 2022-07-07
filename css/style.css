@@ -56,15 +56,26 @@ header{
     .nav_list_borde {
         border-right: none;
     }
-    .pp_big_headlines_item_container{
-        grid-template-columns:1fr;
+    #socialmedia_float{
+       border: 1px solid red;
+       width: 100%;
     } 
 }
 @media only screen and (max-width: 1050px) {
     header {
         flex-direction: column;
         height:fit-content;
-    } 
+    }
+    #latestrelease_table{
+        display: grid;
+        grid-template-columns:1fr;
+
+    }
+    #pp_big_headlines_item_container{
+        display: grid;
+        grid-template-columns:1fr;
+
+    }
 }
 .logo {
     display: flex;
